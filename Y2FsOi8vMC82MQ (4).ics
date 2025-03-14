@@ -1,0 +1,523 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sabre//Sabre VObject 4.5.5//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Muthsam, O. [Olivia]":mailto:o.muthsam@nwo.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20250115T153201Z:mailto:pr@platformwiskunde.nl
+DESCRIPTION;LANGUAGE=nl-NL:Join Zoom Meeting\nhttps://nwo-nl.zoom.us/j/8213
+ 7110208?pwd=NStZQ3RaTmN3MzVjcVJnKzNIdjQ3QT09\nMeeting ID: 821 3711 0208\nP
+ asscode: 737878\n
+UID:040000008200E00074C5B7101A82E0080000000070CE8F065D50DB01000000000000000
+ 0100000001D2868A6856AA843B54AFA8701EBB08B
+SUMMARY;LANGUAGE=nl-NL:Kennismaking Nicos - AIM
+DTSTART;TZID=W. Europe Standard Time:20250121T131500
+DTEND;TZID=W. Europe Standard Time:20250121T134500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20241217T072433Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=nl-NL:Zoom
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1089353752
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:
+X-MICROSOFT-SKYPETEAMSPROPERTIES:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Zoom"\,"LocationAnnotation":""\,"Loc
+ ationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationState":""\,
+ "LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+LAST-MODIFIED:20250115T153201Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Jonker, V.H. (Vincent)":mailto:v.jonker@uu.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=h.vanderre
+ e@nvvw.nl:mailto:h.vanderree@nvvw.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.h.a.schi
+ lders@tue.nl:mailto:w.h.a.schilders@tue.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=carl@vierk
+ antvoorwiskunde.nl:mailto:carl@vierkantvoorwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=huiskes@cw
+ i.nl:mailto:huiskes@cwi.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20250128T100148Z:mailto:pr@platformwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.t.m.casp
+ ers@tudelft.nl:mailto:w.t.m.caspers@tudelft.nl
+DESCRIPTION;LANGUAGE=en-US:\n\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams Heeft u hulp nodig
+ ?<https://aka.ms/JoinTeamsMeeting?omkt=nl-NL>\nNu deelnemen aan de vergade
+ ring<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjY2MjI2YzAtZT
+ I3MS00OWVjLWEyOGUtYTU1YTNhMThhYTdj%40thread.v2/0?context=%7b%22Tid%22%3a%2
+ 2d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22Oid%22%3a%22887a2ed6-de71-46
+ 31-abf0-d4c6532327f8%22%7d>\nVergadering-id: 315 252 282 956\nWachtwoordco
+ de: 2Aw9PJ2s\n________________________________\nVoor organisatoren: Vergad
+ eropties<https://teams.microsoft.com/meetingOptions/?organizerId=887a2ed6-
+ de71-4631-abf0-d4c6532327f8&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7&
+ threadId=19_meeting_YjY2MjI2YzAtZTI3MS00OWVjLWEyOGUtYTU1YTNhMThhYTdj@threa
+ d.v2&messageId=0&language=nl-NL>\nHulp voor de organisatie<https://support
+ .microsoft.com/en-us/teams>\n_____________________________________________
+ ___________________________________\n
+UID:040000008200E00074C5B7101A82E0080000000086DA076A9670DB01000000000000000
+ 0100000002FB1E007FF334D4A8FC8FA4F9E2E96D9
+SUMMARY;LANGUAGE=en-US:PWN-PR commissievergadering
+DTSTART;TZID=W. Europe Standard Time:20250220T150000
+DTEND;TZID=W. Europe Standard Time:20250220T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250127T083529Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams-vergadering
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2123489158
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_YjY2MjI2YzAtZTI3MS00OWVjLWEyOGUtYTU1YTNhMThhYTdj%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22O
+ id%22%3a%22887a2ed6-de71-4631-abf0-d4c6532327f8%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/d72758a0-a446-4e0f-a0aa-4bf95a4a10e7/887a2ed6-de71-4631-abf0-d
+ 4c6532327f8/19_meeting_YjY2MjI2YzAtZTI3MS00OWVjLWEyOGUtYTU1YTNhMThhYTdj@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YjY2MjI2YzAtZTI3MS00OWV
+ jLWEyOGUtYTU1YTNhMThhYTdj@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams-vergadering
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams-vergadering"\,"Locat
+ ionAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":"
+ "\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Loc
+ ationFullAddress":""}]
+LAST-MODIFIED:20250128T100148Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Schilders, Wil":mailto:w.h.a.schilders@TUE.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20241204T152316Z:mailto:pr@platformwiskunde.nl
+DESCRIPTION;LANGUAGE=en-US:Wil Schilders is inviting you to a scheduled Zoo
+ m meeting.\n\nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/87329678923?pwd
+ =Q5Xe3Bs65XFolyG9tbOIfrGP722bbd.1\n\nMeeting ID: 873 2967 8923\nPasscode: 
+ 719358\n\n---\n\nOne tap mobile\n+13462487799\,\,87329678923#\,\,\,\,*7193
+ 58# US (Houston)\n+13602095623\,\,87329678923#\,\,\,\,*719358# US\n\n---\n
+ \nDial by your location\n• +1 346 248 7799 US (Houston)\n• +1 360 209 
+ 5623 US\n• +1 386 347 5053 US\n• +1 507 473 4847 US\n• +1 564 217 20
+ 00 US\n• +1 646 931 3860 US\n• +1 669 444 9171 US\n• +1 669 900 6833
+  US (San Jose)\n• +1 689 278 1000 US\n• +1 719 359 4580 US\n• +1 929
+  436 2866 US (New York)\n• +1 253 205 0468 US\n• +1 253 215 8782 US (T
+ acoma)\n• +1 301 715 8592 US (Washington DC)\n• +1 305 224 1968 US\n
+ • +1 309 205 3325 US\n• +1 312 626 6799 US (Chicago)\n\nMeeting ID: 87
+ 3 2967 8923\nPasscode: 719358\n\nFind your local number: https://us02web.z
+ oom.us/u/kcWM8DJFHo\n\n___________________________________________________
+ _____________________________\nMicrosoft Teams Need help?<https://aka.ms/J
+ oinTeamsMeeting?omkt=en-US>\nJoin the meeting now<https://teams.microsoft.
+ com/l/meetup-join/19%3ameeting_YjFkMDhiZTItY2Q2NC00NGY3LTk5MzItMGNkNTcyNGV
+ lZmIx%40thread.v2/0?context=%7b%22Tid%22%3a%22cc7df247-60ce-4a0f-9d75-704c
+ f60efc64%22%2c%22Oid%22%3a%22533cbdf3-8746-4db7-bbea-61ee3f4cf4ad%22%7d>\n
+ Meeting ID: 399 790 003 419\nPasscode: Jj92D8Xw\n_________________________
+ _______\nDial in by phone\n+31 20 899 9368\,\,983592948#<tel:+31208999368\
+ ,\,983592948> Netherlands\, Amsterdam\nFind a local number<https://dialin.
+ teams.microsoft.com/754d34ef-a98f-4530-bad2-cbd923bf4512?id=983592948>\nPh
+ one conference ID: 983 592 948#\nFor organizers: Meeting options<https://t
+ eams.microsoft.com/meetingOptions/?organizerId=533cbdf3-8746-4db7-bbea-61e
+ e3f4cf4ad&tenantId=cc7df247-60ce-4a0f-9d75-704cf60efc64&threadId=19_meetin
+ g_YjFkMDhiZTItY2Q2NC00NGY3LTk5MzItMGNkNTcyNGVlZmIx@thread.v2&messageId=0&l
+ anguage=en-US> | Reset dial-in PIN<https://dialin.teams.microsoft.com/usp/
+ pstnconferencing>\n_______________________________________________________
+ _________________________\n\n
+UID:040000008200E00074C5B7101A82E008000000009085BE1D6846DB01000000000000000
+ 0100000005F5F36DC311401438DFAAC0FD724CD96
+SUMMARY;LANGUAGE=en-US:Overleg Nicos - Wil
+DTSTART;TZID=W. Europe Standard Time:20241206T150000
+DTEND;TZID=W. Europe Standard Time:20241206T154500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20241204T151820Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:https://us02web.zoom.us/j/87329678923?pwd=Q5Xe3Bs65
+ XFolyG9tbOIfrGP722bbd.1
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-700135448
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_YjFkMDhiZTItY2Q2NC00NGY3LTk5MzItMGNkNTcyNGVlZmIx%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22cc7df247-60ce-4a0f-9d75-704cf60efc64%22%2c%22O
+ id%22%3a%22533cbdf3-8746-4db7-bbea-61ee3f4cf4ad%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/cc7df247-60ce-4a0f-9d75-704cf60efc64/533cbdf3-8746-4db7-bbea-6
+ 1ee3f4cf4ad/19_meeting_YjFkMDhiZTItY2Q2NC00NGY3LTk5MzItMGNkNTcyNGVlZmIx@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YjFkMDhiZTItY2Q2NC00NGY
+ 3LTk5MzItMGNkNTcyNGVlZmIx@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "https://us02web.zoom.us/j/873296
+ 78923?pwd=Q5Xe3Bs65XFolyG9tbOIfrGP722bbd.1"\, "LocationAnnotation" : ""\, 
+ "LocationSource" : 0\, "Unresolved" : false\, "LocationUri" : "" } ]
+LAST-MODIFIED:20241204T152316Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Jonker, V.H. (Vincent)":mailto:v.jonker@uu.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=h.vanderre
+ e@nvvw.nl:mailto:h.vanderree@nvvw.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.h.a.schi
+ lders@tue.nl:mailto:w.h.a.schilders@tue.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=carl@vierk
+ antvoorwiskunde.nl:mailto:carl@vierkantvoorwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=huiskes@cw
+ i.nl:mailto:huiskes@cwi.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20250128T100139Z:mailto:pr@platformwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.t.m.casp
+ ers@tudelft.nl:mailto:w.t.m.caspers@tudelft.nl
+DESCRIPTION;LANGUAGE=en-US:\n\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams Heeft u hulp nodig
+ ?<https://aka.ms/JoinTeamsMeeting?omkt=nl-NL>\nNu deelnemen aan de vergade
+ ring<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODIxM2I5ZDUtZm
+ UxZC00N2ZkLTk3MTMtZjVlMWM0MTcxODA2%40thread.v2/0?context=%7b%22Tid%22%3a%2
+ 2d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22Oid%22%3a%22887a2ed6-de71-46
+ 31-abf0-d4c6532327f8%22%7d>\nVergadering-id: 353 158 438 421\nWachtwoordco
+ de: Dv7y7xm6\n________________________________\nVoor organisatoren: Vergad
+ eropties<https://teams.microsoft.com/meetingOptions/?organizerId=887a2ed6-
+ de71-4631-abf0-d4c6532327f8&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7&
+ threadId=19_meeting_ODIxM2I5ZDUtZmUxZC00N2ZkLTk3MTMtZjVlMWM0MTcxODA2@threa
+ d.v2&messageId=0&language=nl-NL>\nHulp voor de organisatie<https://support
+ .microsoft.com/en-us/teams>\n_____________________________________________
+ ___________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000AF8DF2AD9670DB01000000000000000
+ 01000000068F06030E0AEEE42AD36F29C73FDE8EF
+SUMMARY;LANGUAGE=en-US:PWN-PR commissievergadering
+DTSTART;TZID=W. Europe Standard Time:20250515T090000
+DTEND;TZID=W. Europe Standard Time:20250515T100000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250127T083721Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams-vergadering
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2123487919
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ODIxM2I5ZDUtZmUxZC00N2ZkLTk3MTMtZjVlMWM0MTcxODA2%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22O
+ id%22%3a%22887a2ed6-de71-4631-abf0-d4c6532327f8%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/d72758a0-a446-4e0f-a0aa-4bf95a4a10e7/887a2ed6-de71-4631-abf0-d
+ 4c6532327f8/19_meeting_ODIxM2I5ZDUtZmUxZC00N2ZkLTk3MTMtZjVlMWM0MTcxODA2@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ODIxM2I5ZDUtZmUxZC00N2Z
+ kLTk3MTMtZjVlMWM0MTcxODA2@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams-vergadering
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams-vergadering"\,"Locat
+ ionAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":"
+ "\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Loc
+ ationFullAddress":""}]
+LAST-MODIFIED:20250128T100139Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Bakker, S. de [Simone]":mailto:s.debakker@nwo.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=b.koren@tu
+ e.nl:mailto:b.koren@tue.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Boucherie
+ , Richard (UT-EEMCS)":mailto:r.j.boucherie@utwente.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Schilders
+ , Wil":mailto:w.h.a.schilders@TUE.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20250122T094620Z:mailto:pr@platformwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.t.m.casp
+ ers@tudelft.nl:mailto:w.t.m.caspers@tudelft.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Muthsam, 
+ O. [Olivia]":mailto:o.muthsam@nwo.nl
+DESCRIPTION;LANGUAGE=nl-NL:\n______________________________________________
+ __________________________________\nMicrosoft Teams Heeft u hulp nodig?<ht
+ tps://aka.ms/JoinTeamsMeeting?omkt=nl-NL>\nNu deelnemen aan de vergadering
+ <https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmQxZWIxMjktZWY2Zi
+ 00YzVlLWE1ZjItZmNjYmJjMzM4MWU0%40thread.v2/0?context=%7b%22Tid%22%3a%2281e
+ 63bdd-534e-4aaf-855a-4c017eec7126%22%2c%22Oid%22%3a%220977560e-3140-4528-9
+ 867-214944ffc951%22%7d>\nVergadering-id: 330 804 938 023\nWachtwoordcode: 
+ VW6r3dp2\n________________________________\nVoor organisatoren: Vergaderop
+ ties<https://teams.microsoft.com/meetingOptions/?organizerId=0977560e-3140
+ -4528-9867-214944ffc951&tenantId=81e63bdd-534e-4aaf-855a-4c017eec7126&thre
+ adId=19_meeting_ZmQxZWIxMjktZWY2Zi00YzVlLWE1ZjItZmNjYmJjMzM4MWU0@thread.v2
+ &messageId=0&language=nl-NL>\nPrivacy en beveiliging<https://www.nwo.nl/pr
+ ivacyverklaring>\n________________________________________________________
+ ________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000B0C3C6C8406BDB01000000000000000
+ 010000000989889CD008C6C4D94C06EFC7F299B77
+SUMMARY;LANGUAGE=nl-NL:NL wiskundelandschap 
+DTSTART;TZID=W. Europe Standard Time:20250129T160000
+DTEND;TZID=W. Europe Standard Time:20250129T170000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250120T124135Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=nl-NL:Microsoft Teams-vergadering
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-827058199
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZmQxZWIxMjktZWY2Zi00YzVlLWE1ZjItZmNjYmJjMzM4MWU0%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%2281e63bdd-534e-4aaf-855a-4c017eec7126%22%2c%22O
+ id%22%3a%220977560e-3140-4528-9867-214944ffc951%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/81e63bdd-534e-4aaf-855a-4c017eec7126/0977560e-3140-4528-9867-2
+ 14944ffc951/19_meeting_ZmQxZWIxMjktZWY2Zi00YzVlLWE1ZjItZmNjYmJjMzM4MWU0@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZmQxZWIxMjktZWY2Zi00YzV
+ lLWE1ZjItZmNjYmJjMzM4MWU0@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams-vergadering"\,"Locat
+ ionAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":"
+ "\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Loc
+ ationFullAddress":""}]
+LAST-MODIFIED:20250122T094620Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Jonker, V.H. (Vincent)":mailto:v.jonker@uu.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=h.vanderre
+ e@nvvw.nl:mailto:h.vanderree@nvvw.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.h.a.schi
+ lders@tue.nl:mailto:w.h.a.schilders@tue.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=carl@vierk
+ antvoorwiskunde.nl:mailto:carl@vierkantvoorwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=huiskes@cw
+ i.nl:mailto:huiskes@cwi.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20250128T100143Z:mailto:pr@platformwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.t.m.casp
+ ers@tudelft.nl:mailto:w.t.m.caspers@tudelft.nl
+DESCRIPTION;LANGUAGE=en-US:\n\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams Heeft u hulp nodig
+ ?<https://aka.ms/JoinTeamsMeeting?omkt=nl-NL>\nNu deelnemen aan de vergade
+ ring<https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzhjNDE4NWQtYj
+ c5Yy00M2UyLWFmZTItYTI4ZmY3ZTNhNjkx%40thread.v2/0?context=%7b%22Tid%22%3a%2
+ 2d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22Oid%22%3a%22887a2ed6-de71-46
+ 31-abf0-d4c6532327f8%22%7d>\nVergadering-id: 334 788 338 815\nWachtwoordco
+ de: wV6m9s6s\n________________________________\nVoor organisatoren: Vergad
+ eropties<https://teams.microsoft.com/meetingOptions/?organizerId=887a2ed6-
+ de71-4631-abf0-d4c6532327f8&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7&
+ threadId=19_meeting_NzhjNDE4NWQtYjc5Yy00M2UyLWFmZTItYTI4ZmY3ZTNhNjkx@threa
+ d.v2&messageId=0&language=nl-NL>\nHulp voor de organisatie<https://support
+ .microsoft.com/en-us/teams>\n_____________________________________________
+ ___________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000CCE7FF9B9670DB01000000000000000
+ 010000000063D1B63CF05374A93E575AA4F59909E
+SUMMARY;LANGUAGE=en-US:PWN-PR commissievergadering
+DTSTART;TZID=W. Europe Standard Time:20250415T150000
+DTEND;TZID=W. Europe Standard Time:20250415T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250127T083651Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams-vergadering
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2123488460
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NzhjNDE4NWQtYjc5Yy00M2UyLWFmZTItYTI4ZmY3ZTNhNjkx%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22O
+ id%22%3a%22887a2ed6-de71-4631-abf0-d4c6532327f8%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/d72758a0-a446-4e0f-a0aa-4bf95a4a10e7/887a2ed6-de71-4631-abf0-d
+ 4c6532327f8/19_meeting_NzhjNDE4NWQtYjc5Yy00M2UyLWFmZTItYTI4ZmY3ZTNhNjkx@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NzhjNDE4NWQtYjc5Yy00M2U
+ yLWFmZTItYTI4ZmY3ZTNhNjkx@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams-vergadering
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams-vergadering"\,"Locat
+ ionAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":"
+ "\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Loc
+ ationFullAddress":""}]
+LAST-MODIFIED:20250128T100143Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Jonker, V.H. (Vincent)":mailto:v.jonker@uu.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=h.vanderre
+ e@nvvw.nl:mailto:h.vanderree@nvvw.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.h.a.schi
+ lders@tue.nl:mailto:w.h.a.schilders@tue.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=carl@vierk
+ antvoorwiskunde.nl:mailto:carl@vierkantvoorwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=huiskes@cw
+ i.nl:mailto:huiskes@cwi.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=pr@platformwiskunde.nl;R
+ ESPONDED-AT=20250128T100134Z:mailto:pr@platformwiskunde.nl
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=w.t.m.casp
+ ers@tudelft.nl:mailto:w.t.m.caspers@tudelft.nl
+DESCRIPTION;LANGUAGE=en-US:\n\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams Heeft u hulp nodig
+ ?<https://aka.ms/JoinTeamsMeeting?omkt=nl-NL>\nNu deelnemen aan de vergade
+ ring<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzgyMmQ0NmQtZj
+ k0NC00NWMxLWI0YzYtYTAyOTdjMjYyNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%2
+ 2d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22Oid%22%3a%22887a2ed6-de71-46
+ 31-abf0-d4c6532327f8%22%7d>\nVergadering-id: 358 439 726 746\nWachtwoordco
+ de: Qd7Gy3q8\n________________________________\nVoor organisatoren: Vergad
+ eropties<https://teams.microsoft.com/meetingOptions/?organizerId=887a2ed6-
+ de71-4631-abf0-d4c6532327f8&tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7&
+ threadId=19_meeting_YzgyMmQ0NmQtZjk0NC00NWMxLWI0YzYtYTAyOTdjMjYyNDIy@threa
+ d.v2&messageId=0&language=nl-NL>\nHulp voor de organisatie<https://support
+ .microsoft.com/en-us/teams>\n_____________________________________________
+ ___________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000D52A5EBE9670DB01000000000000000
+ 0100000000094F005BBF1AA458BE2E4D93071B195
+SUMMARY;LANGUAGE=en-US:PWN-PR commissievergadering
+DTSTART;TZID=W. Europe Standard Time:20250610T150000
+DTEND;TZID=W. Europe Standard Time:20250610T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250127T083749Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams-vergadering
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2123489237
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_YzgyMmQ0NmQtZjk0NC00NWMxLWI0YzYtYTAyOTdjMjYyNDIy%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d72758a0-a446-4e0f-a0aa-4bf95a4a10e7%22%2c%22O
+ id%22%3a%22887a2ed6-de71-4631-abf0-d4c6532327f8%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/d72758a0-a446-4e0f-a0aa-4bf95a4a10e7/887a2ed6-de71-4631-abf0-d
+ 4c6532327f8/19_meeting_YzgyMmQ0NmQtZjk0NC00NWMxLWI0YzYtYTAyOTdjMjYyNDIy@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YzgyMmQ0NmQtZjk0NC00NWM
+ xLWI0YzYtYTAyOTdjMjYyNDIy@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams-vergadering
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams-vergadering"\,"Locat
+ ionAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":"
+ "\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Loc
+ ationFullAddress":""}]
+LAST-MODIFIED:20250128T100134Z
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
